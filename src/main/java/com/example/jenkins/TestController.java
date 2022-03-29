@@ -15,4 +15,9 @@ public class TestController {
     public String tests(){
         return "젠킨스 성공2";
     }
+
+    @GetMapping("/jenkins/id")
+    public String test3(){
+        return "젠킨스 성공3";
+    }
 }
